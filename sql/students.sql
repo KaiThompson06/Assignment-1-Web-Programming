@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 01, 2025 at 04:24 AM
+-- Generation Time: Feb 01, 2025 at 04:38 AM
 -- Server version: 8.0.39
 -- PHP Version: 8.2.27
 
@@ -43,8 +43,8 @@ INSERT INTO `students` (`studentId`, `fName`, `lName`, `gradeLvl`, `avgGrade`) V
 (15, 'Bob', 'Robby', 9, 90),
 (16, 'Greg', 'Frank', 12, 56.5),
 (17, 'Don', 'Nod', 1, 100),
-(18, 'Plent', 'Plant', 10, 75.555765),
-(19, 'Wert', 'Grenadine', 3, 45);
+(19, 'Wert', 'Grenadine', 3, 45),
+(20, 'Plent', 'Plant', 7, 12.75);
 
 --
 -- Indexes for dumped tables
@@ -64,7 +64,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `studentId` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `studentId` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
