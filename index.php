@@ -23,7 +23,7 @@
     </header>
     <main>
         <h2>Welcome to Student Data Inc.</h2>
-        <p>We have the largest dataset of student grade data in the world!</p>
+        <p>We have the largest database of student grades in the world!</p>
         <p>Click here to add data!</p>
         <p><a href="./input_data.php" class="button">Add Data</a></p>
 
