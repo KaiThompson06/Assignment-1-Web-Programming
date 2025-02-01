@@ -1,0 +1,100 @@
+html {
+    color:  whitesmoke;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #838383;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header, footer {
+    width: 100%;
+    height: auto;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+}
+header a {
+    color:  whitesmoke;
+    padding: 10px 25px;
+
+}
+header menu {
+    margin-top: 1em;
+    display: flex;
+}
+header li {
+    list-style-type: none;
+}
+footer p {
+    padding: 10px;
+}
+header img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main {
+    height: 100vh;
+    color: #ecfcfc;
+}
+
+main h2 {
+    font-size: 5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    margin: 150px 0 75px;
+}
+main p {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px 25px;
+}
+.button, form > input {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5em;
+}
+main form label, main form input {
+    font-size: 2em;
+}
+
+main form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #507c7c;
+    margin: 0 25%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main form > div {
+    margin: 10px;
+}
+
+h3  {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
