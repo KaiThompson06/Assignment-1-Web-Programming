@@ -1,1 +1,1 @@
-<p>Copyright of ME</p>
+<p>© 2025 - 2025 Student Data Inc. - All Rights Reserved.</p>
