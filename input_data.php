@@ -38,7 +38,7 @@
         </div>
         <div>
             <label for="avgGrade">Average Grade:</label>
-            <input type="text" id="avgGrade" name="avgGrade">
+            <input type="number" step="0.01" id="avgGrade" name="avgGrade">
         </div>
         <input type="submit" name="submit" id="submit">
     </form>
